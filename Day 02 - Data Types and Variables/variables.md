@@ -52,3 +52,28 @@ name = "Alice"
 user_age = 25
 total1 = 100
 _value = "secret"
+```
+
+# 📖 Summary  
+
+**Variables** are like **containers** that store **data values**.  
+
+You create variables in Python using the **`=`** sign:  
+
+```python
+x = 10
+name = "Alice"
+```
+### 📝 Variable Naming Rules
+
+- Must start with a letter or underscore (_)
+
+- Can contain letters, numbers, and underscores
+
+- Cannot start with a number
+
+- Cannot contain spaces
+
+- Are case-sensitive (age and Age are different)
+
+- Cannot use Python reserved keywords (like for, while, class)
