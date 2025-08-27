@@ -21,5 +21,6 @@ For example, whether the value is an **integer number**, a **list of items**, or
 This data type is used for **numbers** that can be **whole or positive**  
 For Example:
 ```python
-a = 12
-print(type(a))
+a: int = 12
+print(a)
+```
