@@ -1,83 +1,91 @@
-# 💯 Operators
+# 💯 Operators in Python
 
-In Python, we perform **operations** on values, like adding, subtracting, or comparing.  
+In Python, we perform **operations** on values, like adding, subtracting, or comparing.
 
-- The **values** we operate on are called **operands**.  
-- The **symbol** that performs the operation is called the **operator**.  
+- The **values** we operate on are called **operands**.
+- The **symbol** that performs the operation is called the **operator**.
 
-**Example:**  
+**Example:**
 ```python
 2 + 5
 ```
+
+---
+
 # Types of Operators
-## 1. Arithematic Operators ➕➖✖➗
-Arithematic operators are the mathematical operations 
-## ➕ Arithmetic Operators
+
+## 1. Arithmetic Operators ➕➖✖➗
 
 Arithmetic operators are used to perform **mathematical operations** in Python.
 
 | Operator | Description                  | Example       |
 |----------|------------------------------|---------------|
 | `+`      | Addition                     | `2 + 3 = 5`   |
-| `-`      | Subtraction                  | `5 - 2 = 3`   | 
-| `*`      | Multiplication               | `2 * 3 = 6`   | 
-| `/`      | Division                     | `6 / 3 = 2.0` | 
-| `%`      | Modulus (remainder)          | `5 % 2 = 1`   | 
-| `**`     | Exponent (power)             | `2 ** 3 = 8`  | 
+| `-`      | Subtraction                  | `5 - 2 = 3`   |
+| `*`      | Multiplication               | `2 * 3 = 6`   |
+| `/`      | Division                     | `6 / 3 = 2.0` |
+| `%`      | Modulus (remainder)          | `5 % 2 = 1`   |
+| `**`     | Exponent (power)             | `2 ** 3 = 8`  |
 | `//`     | Floor division (quotient)    | `5 // 2 = 2`  |
 
-## +
-This is the **addition** sign
+---
+
+## Examples of Each Operator
+
+### ➕ Addition
 ```python
-a: int = 1 + 4
-print(a)
+a = 1 + 4
+print(a)  # Output: 5
 ```
-## -
-This is the **minus** sign
+
+### ➖ Subtraction
 ```python
-a: int = 4 - 1
-print(a)
+a = 4 - 1
+print(a)  # Output: 3
 ```
-## *
-This is the **multiplication** sign
+
+### ✖ Multiplication
 ```python
-a: int = 4 * 1
-print(a)
+a = 4 * 1
+print(a)  # Output: 4
 ```
-## /
-This is the **divison** sign
+
+### ➗ Division
 ```python
-a: int = 4 / 1
-print(a)
+a = 4 / 1
+print(a)  # Output: 4.0
 ```
-## %
-This is the **modulus** sign
+
+### % Modulus (Remainder)
 ```python
-a: int = 5 % 2
-print(a)
+a = 5 % 2
+print(a)  # Output: 1
 ```
-## **
-This is the **exponentiation** sign
+
+### ** Exponentiation (Power)
 ```python
-a: int = 3 ** 2
-print(a)
+a = 3 ** 2
+print(a)  # Output: 9
 ```
-## //
-This is the **floor divison** sign
+
+### // Floor Division (Quotient)
 ```python
-a: int = 3 // 2
-print(a)
+a = 3 // 2
+print(a)  # Output: 1
 ```
-## Note:
-We can also print it without variables
-For Example:
+
+---
+
+## ✅ Note
+
+You can also perform these operations **directly in the print statement**, without storing them in variables:
 ```python
-print(5 + 3)
-print(5 - 3)
-print(5 * 3)
-print(5 / 3)
-print(5 % 3)
-print(5 // 3)
-print(5 ** 3)
+print(5 + 3)  # 8
+print(5 - 3)  # 2
+print(5 * 3)  # 15
+print(5 / 3)  # 1.666...
+print(5 % 3)  # 2
+print(5 // 3) # 1
+print(5 ** 3) # 125
 ```
-## 
+
