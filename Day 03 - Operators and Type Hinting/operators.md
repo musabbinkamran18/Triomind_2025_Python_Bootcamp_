@@ -113,4 +113,7 @@ print(x)  # 1.0
 x **= 3
 print(x)  # 1.0
 ```
-
+## 3. Comparision Operators
+**Comparison operators** are used to **compare two values**.
+## Note:
+- They check a condition and return a Boolean value `True` or `False`.
