@@ -89,3 +89,21 @@ print(5 // 3) # 1
 print(5 ** 3) # 125
 ```
 
+## 2. Assignment Operators
+**Assignment** is the process of storing a **value** in a variable using the `=` operator.
+```python
+x = 5
+```
+Here the value of `5` is **assigned** to **x**
+## +=
+```python
+x = 5
+x += 3    # Same as x = x + 3
+print(x)  # Output: 8
+```
+## -=
+```python
+x = 5
+x -= 2    # Same as x = x - 2
+print(x)  # Output: 3
+```
