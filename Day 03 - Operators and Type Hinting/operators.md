@@ -16,12 +16,12 @@ Arithematic operators are the mathematical operations
 
 Arithmetic operators are used to perform **mathematical operations** in Python.
 
-| Operator | Description                  | Example       | Emoji |
-|----------|------------------------------|---------------|-------|
-| `+`      | Addition                     | `2 + 3 = 5`   | ➕    |
-| `-`      | Subtraction                  | `5 - 2 = 3`   | ➖    |
-| `*`      | Multiplication               | `2 * 3 = 6`   | ✖️    |
-| `/`      | Division                     | `6 / 3 = 2.0` | ➗    |
-| `%`      | Modulus (remainder)          | `5 % 2 = 1`   | 💯    |
-| `**`     | Exponent (power)             | `2 ** 3 = 8`  | 🌊    |
-| `//`     | Floor division (quotient)    | `5 // 2 = 2`  | 🔢    |
+| Operator | Description                  | Example       |
+|----------|------------------------------|---------------|
+| `+`      | Addition                     | `2 + 3 = 5`   |
+| `-`      | Subtraction                  | `5 - 2 = 3`   | 
+| `*`      | Multiplication               | `2 * 3 = 6`   | 
+| `/`      | Division                     | `6 / 3 = 2.0` | 
+| `%`      | Modulus (remainder)          | `5 % 2 = 1`   | 
+| `**`     | Exponent (power)             | `2 ** 3 = 8`  | 
+| `//`     | Floor division (quotient)    | `5 // 2 = 2`  |
