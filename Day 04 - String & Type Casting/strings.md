@@ -35,3 +35,14 @@ print("Hello, \nTriomind!") # \n means new line
 print("Hello, \tTriomind!") # \t means tab and adds space
 ```
 
+## 3. Performing Different Actions On Strings 🔤
+| Name          | Description                                           | Example               |
+|---------------|------------------------------------------------------|---------------------|
+| Concatenation | Joining 2 strings                                    | "Hello," + " World!" |
+| Indexing      | Access characters using **position (index)**        | my_string[0]        |
+| Slicing       | Extract a **part of a string**                      | my_string[1:5]      |
+| Length        | Find the number of characters in a string           | len(my_string)      |
+| Upper Case    | Convert all letters in a string to **uppercase**    | my_string.upper()   |
+| Lower Case    | Convert all letters in a string to **lowercase**    | my_string.lower()   |
+| Capitalize    | Convert the **first letter** of a string to uppercase | my_string.capitalize() |
+
